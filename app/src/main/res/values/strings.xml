@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GeforEmApp</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="button">Button</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
 </resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/userMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail" />
+
+        <TextView
+            android:id="@+id/userFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name" />
+
+        <TextView
+            android:id="@+id/userLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name" />
+
+        <TextView
+            android:id="@+id/userSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Section" />
+
+        <TextView
+            android:id="@+id/userOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
