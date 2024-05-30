@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GeforEmApp"
+rootProject.name = "GE"
 include(":app")
  

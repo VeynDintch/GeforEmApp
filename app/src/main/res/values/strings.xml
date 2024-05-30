@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">GeforEmApp</string>
+    <string name="app_name">MyApp</string>
+    <string name="login">Connexion</string>
+    <string name="password">Mot de passe</string>
+    <string name="login_button">Connexion</string>
+    <string name="reset_password">Reinitialise le mot de passe</string>
+    <string name="welcome_to_the_emergence_page">Welcome to the Emergence Page</string>
 </resources>

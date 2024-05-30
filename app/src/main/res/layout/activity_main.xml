@@ -1,18 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <!-- Champ pour le login -->
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:hint="@string/login"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="ExtraText" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Champ pour le mot de passe -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="" />
+
+    <!-- Bouton de connexion -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Message d'erreur ou de succès -->
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_green_dark"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Bouton de réinitialisation du mot de passe -->
+    <Button
+        android:id="@+id/buttonResetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_password"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorprimary"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+</LinearLayout>
