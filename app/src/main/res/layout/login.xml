@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="917dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            android:text="GeforEmargement"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:ignore="NotSibling" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="411dp"
+            android:layout_height="93dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/pwdUser"
+            android:layout_width="405dp"
+            android:layout_height="93dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/butSum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
