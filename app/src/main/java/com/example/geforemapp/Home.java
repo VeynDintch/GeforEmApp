@@ -1,5 +1,6 @@
 package com.example.geforemapp;
 
+import android.annotation.SuppressLint;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -76,6 +77,7 @@ public class Home extends AppCompatActivity {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     private void infomation(String response) {
         if (response != null) {
             try {
